@@ -3,8 +3,8 @@ package com.eduardolwx.kotlinxt
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.eduardolwx.androidxt.extensions.lifecycle.getViewModel
-import com.eduardolwx.androidxt.extensions.lifecycle.onChange
+import com.eduardolwx.androidxt.lifecycle.getViewModel
+import com.eduardolwx.androidxt.lifecycle.onChange
 
 class MainActivity : AppCompatActivity() {
 

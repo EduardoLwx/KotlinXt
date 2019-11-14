@@ -1,4 +1,4 @@
-package com.eduardolwx.androidxt.extensions.lifecycle
+package com.eduardolwx.androidxt.lifecycle
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity

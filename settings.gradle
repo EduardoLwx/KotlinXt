@@ -1,2 +1,2 @@
-include ':sample', ':androidxt'
+include ':sample', ':androidxt', ':androidxt-lifecycle', ':androidxt-databinding'
 rootProject.name='KotlinXt'
