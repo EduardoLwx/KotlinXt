@@ -17,7 +17,8 @@ class SecondFragment : Fragment() {
     private lateinit var viewModel: SecondViewModel
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         return inflater.inflate(R.layout.second_fragment, container, false)
@@ -28,5 +29,4 @@ class SecondFragment : Fragment() {
         viewModel = ViewModelProviders.of(this).get(SecondViewModel::class.java)
         // TODO: Use the ViewModel
     }
-
 }

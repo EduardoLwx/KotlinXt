@@ -19,33 +19,32 @@ class MainActivityTest {
     val activityRule = ActivityTestRule(MainActivity::class.java)
 
     @Test
-    fun checkOptionCharactersIsDisplayed(){
+    fun checkOptionCharactersIsDisplayed() {
         onView(withText("Personagens")).check(matches(isDisplayed()))
     }
 
     @Test
-    fun checkOptionComicsIsDisplayed(){
+    fun checkOptionComicsIsDisplayed() {
         onView(withText("Revistas")).check(matches(isDisplayed()))
     }
 
     @Test
-    fun checkOptionCreatorsIsDisplayed(){
+    fun checkOptionCreatorsIsDisplayed() {
         onView(withText("Criadores")).check(matches(isDisplayed()))
     }
 
     @Test
-    fun checkOptionEventsIsDisplayed(){
+    fun checkOptionEventsIsDisplayed() {
         onView(withText("Eventos")).check(matches(isDisplayed()))
     }
 
     @Test
-    fun checkOptionSeriesIsDisplayed(){
+    fun checkOptionSeriesIsDisplayed() {
         onView(withText("Series")).check(matches(isDisplayed()))
     }
 
     @Test
-    fun checkOptionStoriesIsDisplayed(){
+    fun checkOptionStoriesIsDisplayed() {
         onView(withText("Estórias")).check(matches(isDisplayed()))
     }
-
 }

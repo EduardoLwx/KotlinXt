@@ -4,8 +4,6 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 
-fun <T> LifecycleOwner.onChange(data: LiveData<T>, observe: (T)->Unit){
+fun <T> LifecycleOwner.onChange(data: LiveData<T>, observe: ((T) -> Unit)) {
     data.observe(this, Observer<T>(observe))
 }
-
-

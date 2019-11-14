@@ -15,5 +15,4 @@ class Second : AppCompatActivity() {
                 .commitNow()
         }
     }
-
 }
