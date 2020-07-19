@@ -25,6 +25,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 //    implementation 'com.github.EduardoLwx.kotlinxt:androidxt-lifecycle:temp-SNAPSHOT'
+//    implementation 'com.github.EduardoLwx.kotlinxt:androidxt:temp-SNAPSHOT'
     implementation project(':androidxt-lifecycle')
     implementation project(':androidxt')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
