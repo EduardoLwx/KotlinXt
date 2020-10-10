@@ -1,4 +1,4 @@
-package com.eduardolwx.androidxt.extensions
+package com.eduardolwx.androidxt.view
 
 import android.view.View
 
